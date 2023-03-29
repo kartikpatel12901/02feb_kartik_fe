@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table, td {
+          border:1px solid black;
+          border-collapse: collapse;
+        }
+        tbody {
+            vertical-align: top;
+            text-align: left;
+        }
+        th {
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <center>
+        <table>
+            <caption><h1><u>Football League</u></h1></caption>
+            <!-- heading -->
+            <thead> 
+                <tr>
+                    <th colspan="3">
+                        <h2><a href="https://en.wikipedia.org/wiki/Premier_League" target="blank"><img src="data:image/png;base64,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" alt="" height="50px" width="50px"></a><a href="https://www.premierleague.com" target="blank"> Premier league</a></h2>
+                    </th>
+                </tr>
+            </thead>
+            <!-- body -->
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/UEFA_Champions_League" target="blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/UEFA_Champions_League.svg/1200px-UEFA_Champions_League.svg.png" alt="" width="30px" height="30px"></a><a href="https://www.uefa.com/uefachampionsleague/" target="blank"> Champions league group stage</a>
+                    </td>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/UEFA_Europa_League" target="blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/77/UEFA_Europa_League_%28football_competition%29_logo.svg/1200px-UEFA_Europa_League_%28football_competition%29_logo.svg.png" alt="" width="30px" height="30px"></a><a href="https://www.uefa.com/uefaeuropaleague/" target="blank">league group stage</a> 
+                    </td>
+                    <td>
+                        Relegation
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ol>
+                            <li>
+                                <a href="https://en.wikipedia.org/wiki/Arsenal_F.C." target="blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/340px-Arsenal_FC.svg.png" alt="" height="30px" width="30px"></a><a href="https://www.google.com/search?client=safari&rls=en&q=premier+league&ie=UTF-8&oe=UTF-8#cobssid=s&sie=t;/m/0xbm;2;/m/02qwjnl;mt;fp;1;;;" target="blank">Arsenal</a>
+                            </li>
+                            <li>
+                                <a href="https://en.wikipedia.org/wiki/Manchester_City_F.C." target="blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/360px-Manchester_City_FC_badge.svg.png" alt="" height="30px" width="30px"></a><a href="https://www.google.com/search?client=safari&rls=en&q=premier+league&ie=UTF-8&oe=UTF-8#cobssid=s&sie=t;/m/01634x;2;;mt;fp;1;;;" target="blank">Man city</a>
+                            </li>
+                            <li>
+                                <a href="https://en.wikipedia.org/wiki/Manchester_United_F.C." target="blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/380px-Manchester_United_FC_crest.svg.png" alt="" height="30px" width="30px"></a><a href="https://www.google.com/search?client=safari&rls=en&q=premier+league&ie=UTF-8&oe=UTF-8#cobssid=s&sie=t;/m/050fh;2;;mt;fp;1;;;" target="blank">Man United</a>
+                            </li>
+                            <li>
+                                <a href="https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C." target="blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/240px-Tottenham_Hotspur.svg.png" alt="" height="30px" width="30px"></a><a href="https://www.google.com/search?client=safari&rls=en&q=premier+league&ie=UTF-8&oe=UTF-8#cobssid=s&sie=t;/m/0hvjr;2;;mt;fp;1;;;" target="blank">Tottenham</a>
+                            </li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ol>
+                            <li>
+                                <a href="https://en.wikipedia.org/wiki/Newcastle_United_F.C." target="blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/400px-Newcastle_United_Logo.svg.png" alt="" height="30px" width="30px"></a><a href="https://www.google.com/search?client=safari&rls=en&q=premier+league&ie=UTF-8&oe=UTF-8#cobssid=s&sie=t;/m/0fvly;2;;mt;fp;1;;;" target="blank">New Castle</a>
+                            </li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ol>
+                            <li>
+                                <a href="https://en.wikipedia.org/wiki/West_Ham_United_F.C." target="blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/330px-West_Ham_United_FC_logo.svg.png" alt="" height="30px" width="30px"></a><a href="https://www.google.com/search?client=safari&rls=en&q=premier+league&ie=UTF-8&oe=UTF-8#cobssid=s&sie=t;/m/0ckf6;2;;mt;fp;1;;;" target="blank">West Hem</a>
+                            </li>
+                            <li>
+                                <a href="https://en.wikipedia.org/wiki/Leeds_United_F.C." target="blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Leeds_United_F.C._logo.svg/320px-Leeds_United_F.C._logo.svg.png" alt="" height="30px" width="30px"></a><a href="https://www.google.com/search?client=safari&rls=en&q=premier+league&ie=UTF-8&oe=UTF-8#cobssid=s&sie=t;/m/01xn7x1;2;;mt;fp;1;;;" target="blank">Leeds United</a>
+                            </li>
+                            <li>
+                                <a href="https://en.wikipedia.org/wiki/Southampton_F.C." target="blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/FC_Southampton.svg/360px-FC_Southampton.svg.png" alt="" height="30px" width="30px"></a><a href="https://www.google.com/search?client=safari&rls=en&q=premier+league&ie=UTF-8&oe=UTF-8#cobssid=s&sie=t;/m/0k_l4;2;;mt;fp;1;;;" target="blank">Southampton</a>
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+            </tbody>
+            <!-- footer -->
+            <!--  <tfoot> </tfoot> -->
+        </table>
+    </center>
+</body>
+</html>

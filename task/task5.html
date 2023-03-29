@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-5</title>
+</head>
+<body>
+    <fieldset>
+        <form action="">
+            <!-- personal -->
+            <h1>Personal Details</h1>
+            <label for="fname">Name: </label>
+            <input type="text" name="fname" id="" placeholder="Abc"><br><br>
+            <label for="pwd">Password: </label>
+            <input type="password" name="pwd" id="" pattern="[0-9,A-Z,a-z,@] {8-15}"><br><br>
+            <label for="email">E-mail id: </label>
+            <input type="email" name="email" id="" required placeholder="abc@abc.com"><br><br>
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" id="" value="Male">
+            <label for="male"> Male</label>
+            <input type="radio" name="gender" id="" value="Female">
+            <label for="female"> Female</label><br><br>
+            <label for="phone">Contact#: </label>
+            <input type="tel" name="phone" id="" pattern="[0-9] {10-11}"><br><br>
+            <!-- education -->
+            <h1>Educational Qualification</h1>
+            <label for="deg">Degree:</label>
+            <select name="deg" id="">
+                <option value="select">-- Select Group --</option>
+                <option value="ba">B.A.</option>
+                <option value="bsc">Bsc.</option>
+                <option value="be">B.E.</option>
+                <option value="bcom">B.Com.</option>
+            </select><br><br>
+            <label for="deg">Engineering:</label>
+            <select name="eng" id="">
+                <option value="select">-- Engineering --</option>
+                <option value="ce">C.E.</option>
+                <option value="civil">Civil</option>
+                <option value="it">I.T.</option>
+                <option value="mechanical">Mechanical</option>
+            </select><br><br>
+            <label for="hobby">Hobbies:</label>
+            <input type="checkbox" name="hobby" id="" value="playnigchess">
+            <label for="games">Playnig Chess</label>
+            <input type="checkbox" name="hobby" id="" value="readingbooks">
+            <label for="books">Reaading Books</label><br><br>
+            <h1>Address</h1>
+            <textarea name="address" id="" cols="30" rows="10"></textarea><br><br>
+            <label for="resume">Attch Resume:</label>
+            <input type="file" name="resume"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </fieldset>
+</body>
+</html>

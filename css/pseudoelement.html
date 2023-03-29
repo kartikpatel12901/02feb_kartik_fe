@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line {
+            background-color: violet;
+        }
+        p::first-letter {
+            font-size: xx-large;
+        }
+        p::before {
+            content: "Start!";
+        }
+        p::after {
+            content: "End!";
+        }
+        p::selection {
+            color: blue;
+        }
+        ::marker {
+            color: silver;
+        }
+        p:nth-child(2n) {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempore sit cumque temporibus! Optio fugit soluta,
+        quod tempore quos sed vel rerum harum necessitatibus consectetur impedit voluptatem culpa repellat possimus id
+        voluptas. Nostrum aliquam culpa voluptatibus fugiat accusantium in eius qui nulla, obcaecati iure, quasi
+        deleniti nisi! Magni, nesciunt asperiores.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi commodi accusamus magni recusandae aut odio architecto sapiente non possimus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, soluta!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, soluta!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, soluta!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, soluta!</p>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+</body>
+
+</html>

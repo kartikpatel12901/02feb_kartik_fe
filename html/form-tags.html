@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Tags</title>
+    <style>
+        fieldset {
+            /* background-image: url(/Users/raxitapatel/Downloads/kartik/web/imges/pexels-pixabay-268533.jpg); */
+            background-image: linear-gradient(130deg,#00ffee96,#005580)
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Sign-Up</legend>
+        <form action="https://www.netflix.com/" method="">
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="" required placeholder="Abc"><br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id=""><br><br>
+            <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" name="email" id="" required placeholder="abc@abc.com"><br><br>
+            <label for="pwd">Password:</label>&nbsp;&nbsp;
+            <input type="password" name="pwd" id="" pattern="[0-9,A-Z,a-z,@] {8-15}"><br><br>
+            <label for="cwd">Confirm Password:</label>
+            <input type="password" name="cwd" pattern="[0-9,A-Z,a-z,@] {8-15}"><br><br>
+            <label for="phone">Phone No.:</label>
+            <input type="tel" name="phone" id="" pattern="[0-9] {10-11}"><br><br>
+            <label for="address">Address:</label>
+            <textarea name="address" rows="10" cols="30"></textarea><br><br>
+            <label for="city">City:</label>
+            <select name="city" id="">
+                <option value="select">City</option>
+                <option value="rajkot">Rajkot</option>
+                <option value="surat">Surat</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="jaipur">Jaipur</option>
+            </select>
+            <label for="state">State:</label>
+            <select name="state" id="">
+                <option value="select">State</option>
+                <option value="gujarat">Gujarat</option>
+                <option value="maharastra">Maharastra</option>
+                <option value="rajsthan">Rajsthan</option>
+            </select><br><br>
+            <label for="bdate">Birth Date:</label>
+            <input type="date" name="bdate" id=""><br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="" value="Other">
+            <label for="other">Other</label><br><br>
+            <label for="hobby">Hobbies:</label>
+            <input type="checkbox" name="hobby" id="" value="Games">
+            <label for="games">Games</label>
+            <input type="checkbox" name="hobby" id="" value="Books">
+            <label for="books">Books</label>
+            <input type="checkbox" name="hobby" id="" value="Movies">
+            <label for="movies">Movies</label><br><br>
+            <label for="img">Photo:</label>
+            <input type="file" name="img"><br><br>
+            <input type="submit" value="Submit">&nbsp;
+            <input type="reset" value="Reset">
+        </form>
+    </fieldset>
+</body>
+</html>
