@@ -1,0 +1,10 @@
+.header {   
+    text-align: center; 
+}
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
