@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        div {
+            counter-reset: x;
+        }
+        h1::before {
+            counter-increment: x;
+            content: counter(x)". ";
+            margin-right: 7px;
+        }
+        h1 {
+            counter-reset: y;
+        }
+        p::before {
+            counter-increment: y;
+            content: counter(y)". ";
+            margin-right: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Asian Countries:</h1>
+            <p>India</p>
+            <p>China</p>
+            <p>Taiwan</p>
+            <p>Russia</p>
+        <h1>European Countries:</h1>
+            <p>Iseland</p>
+            <p>Poland</p>
+            <p>France</p>
+            <p>UK</p>
+    </div>
+</body>
+</html>
