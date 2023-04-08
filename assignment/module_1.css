@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+.ex2{
+    text-align: center;
+}
+.que3 dd {
+    margin: 0px;
+}
+.que4 dd {
+    margin: 0px;
+}
+.text{
+    text-align: center;
+    color: crimson;
+}
+table, th, td {
+    border: 2px solid black;
+    border-spacing: 10px;
+}
+table th {
+    padding: 10px;
+}
+.que10 table, th, td {
+    border: 1px solid black;
+    border-spacing: 0px;
+    padding: 5px;
+}
