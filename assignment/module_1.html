@@ -12,7 +12,8 @@
 <body>
     <hr>
     <h1>Assignment-1</h1>
-    <hr><hr>
+    <hr>
+    <hr>
     <!-- <div class="que1"> -->
     <h3>Q1. Are the HTML tags and elements the same thing?</h3>
     <p><b>Ans.</b> No, HTML tags and elements are no the same thing.</p>
@@ -191,7 +192,8 @@
     <hr>
     <div class="que7">
         <h3>Q7.What is the difference between the 'id' attribute and the 'class' attribute of HTML elements?</h3>
-        <p><b>Ans.</b> A Class name can be used by multiple HTML elements, while an ID name must only be used by one HTML element.</p>
+        <p><b>Ans.</b> A Class name can be used by multiple HTML elements, while an ID name must only be used by one
+            HTML element.</p>
         <p>Syntax;-</p>
         <dl>
             <dt>Class:-</dt>
@@ -210,7 +212,9 @@
             <li>
                 <dl>
                     <dt>paragraph tag:-</dt>
-                    <dd><p>Text Formating</p></dd>
+                    <dd>
+                        <p>Text Formating</p>
+                    </dd>
                 </dl>
             </li>
             <li>
@@ -247,30 +251,34 @@
     </div>
     <div class="que9">
         <h3>Q9. How is Cell Padding different from Cell Spacing?</h3>
-        <p><b>Ans.</b>  Cellpadding:- Cellpadding specifies the space between the border of a table cell and its contents (i.e) it defines the whitespace between the cell edge and the content of the cell.</p>
-        <p>Cellspacing:- Cellspacing specifies the space between cells (i.e) it defines the whitespace between the edges of the adjacent cells.</p>
+        <p><b>Ans.</b> Cellpadding:- Cellpadding specifies the space between the border of a table cell and its contents
+            (i.e) it defines the whitespace between the cell edge and the content of the cell.</p>
+        <p>Cellspacing:- Cellspacing specifies the space between cells (i.e) it defines the whitespace between the edges
+            of the adjacent cells.</p>
         <table>
             <tr>
                 <th>hello</th>
-                <th>hello</th> 
                 <th>hello</th>
-              </tr>
-              <tr>
+                <th>hello</th>
+            </tr>
+            <tr>
                 <td>world</td>
                 <td>world</td>
                 <td>world</td>
-              </tr>
-              <tr>
+            </tr>
+            <tr>
                 <td>!</td>
                 <td>!</td>
                 <td>!</td>
-              </tr>
+            </tr>
         </table>
     </div>
     <hr>
     <div class="que10">
         <h3>Q10. How can we club two or more rows or columns into a single row or column in an HTML table?</h3>
-        <p><b>Ans. </b> We uses “rowspan” and “colspan” attribute to merge cells in HTML.The rowspan attribute is for the number of rows a cell should merge, whereas the colspan attribute is for the number of columns a cell should merge.</p>
+        <p><b>Ans. </b> We uses “rowspan” and “colspan” attribute to merge cells in HTML.The rowspan attribute is for
+            the number of rows a cell should merge, whereas the colspan attribute is for the number of columns a cell
+            should merge.</p>
         <p>Syntax of rowspan:- &lt;td rowspan=“3”&gt; content &lt;/td&gt;</p>
         <p>Syntax of colspan:- &lt;td colspan=“3”&gt; content &lt;/td&gt;</p>
         <p><b>Ex.</b></p>
@@ -278,17 +286,185 @@
             <tr>
                 <th colspan="2">hello</th>
                 <th>hello</th>
-              </tr>
-              <tr>
+            </tr>
+            <tr>
                 <td rowspan="2">world</td>
                 <td>world</td>
                 <td>world</td>
-              </tr>
-              <tr>
+            </tr>
+            <tr>
                 <td>!</td>
                 <td>!</td>
-              </tr>
+            </tr>
         </table>
+    </div>
+    <hr>
+    <div class="que11">
+        <h3>Q11.What is the difference between a block-level element and an inline element?</h3>
+        <div><b>Ans. </b>
+            <dl>
+                <dt><b>Block elements:-</b></dt>
+                <dd>They consume the entire width available irrespective of their sufficiency. They always start in a
+                    new line and have top and bottom margins. It does not contain any other elements next to it.</dd>
+                <dd><b>Ex.</b></dd>
+                <dd>
+                    <h1>1. This is h1 tag.</h1>
+                    <div>2. This is div tag.</div>
+                    <p>3. This is paragraph tag.</p>
+                </dd>
+                <dt><b>Inline elements:-</b></dt>
+                <dd>Inline elements occupy only enough width that is sufficient to it and allows other elements next to
+                    it which are inline. Inline elements don’t start from a new line and don’t have top and bottom
+                    margins as block elements have.</dd>
+                <dd><b>Ex.</b></dd>
+                <dd><a href="#">1. This is a tag.</a>
+                    <label for="#">2. This is label tag.</label>
+                    <span>3. This is span tag.</span>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <hr>
+    <div class="que12">
+        <h3>Q12.How to create a Hyperlink in HTML?</h3>
+        <p><b>Ans. </b>The HTML &lt;a&gt; tag defines a hyperlink.</p>
+        <p><b>Ex.</b><a href="https://www.google.com/">Google</a></p>
+    </div>
+    <hr>
+    <div class="que13">
+        <h3>Q13. What is the use of an iframe tag?</h3>
+        <p><b>Ans. </b>The &lt;iframe&gt; tag specifies an inline frame. An inline frame is used to embed another
+            document within the current HTML document.</p>
+        <p><b>Syntax:</b> &lt;iframe src="URL" title=“description”&gt;&lt;/iframe&gt;.</p>
+        <p><b>Ex.</b></p>
+        <div class="ifrm">
+            <iframe src="../task/iframe/header.html" frameborder="0" height="80px" width="100%" name="header"></iframe>
+            <iframe src="../task/iframe/slider.html" frameborder="0" height="350px" width="100%" name="slider"></iframe>
+            <iframe src="../task/iframe/content.html" frameborder="0" height="2500px" width="100%"
+                name="content"></iframe>
+            <iframe src="../task/iframe/footer.html" frameborder="0" height="100px" width="100%" name="footer"></iframe>
+        </div>
+    </div>
+    <hr>
+    <div class="que14">
+        <h3>Q14. What is the use of a span tag? Explain with example?</h3>
+        <p><b>Ans. </b>The span tag is an inline container used to mark up a part of a text, or a part of a document.
+            And it can also used for styling purpose to the grouped inline elements</p>
+        <p><b>Ex. </b>
+        <p>Lorem ipsum dolor sit.<span style="color:red;font-weight:bolder">Lorem ipsum dolor sit amet
+                consectetur.</span></p>
+    </div>
+    <hr>
+    <div class="que15">
+        <h3>Q15. How to insert a picture into a background image of a web page?</h3>
+        <p><b>Ans. </b>n the body tag, specify a background image in the background attribute by passing the URL of the
+            image or location path. Or add CSS styling properties.</p>
+        <p><b>Ex.</b></p>
+        <div class="bg-img"></div>
+    </div>
+    <hr>
+    <div class="que16">
+        <h3>Q16. How are active links different from normal links?</h3>
+        <p><b>Ans. </b> Normal links are links which are there on the page and have not been clicked yet. Active links
+            are those links, which have just been clicked at that instant.If you left or right-click any one of the
+            links Visited or Unvisited, it will turn into Red and Underline. Active Links shows that the browser is in
+            the process to load a new resource.</p>
+        <p><b>Ex.</b><a href="https://www.google.com/">Google</a></p>
+    </div>
+    <hr>
+    <div class="que17">
+        <h3>Q17. What are the different tags to separate sections of text?</h3>
+        <p><b>Ans. </b>There are three tags used to separate the texts.</p>
+        <p>Ex. </p>
+        1. &lt;br&gt; tag:- This tag<br> is used to<br> separate line of texts.<br>
+        2. &lt;p&gt; tag:- This tag contains the text in the form of a new paragraph.
+        <p>This is 1st paragraph.</p>
+        <p>This is 2nd paragraph.</p>
+        3. &lt;blockquote&gt; tag:- This tag is used to define a large quoted section.
+        <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae perferendis et, odio aut explicabo
+            dolorem voluptas? Enim eligendi id natus adipisci explicabo numquam voluptates soluta aut, laborum velit
+            qui, dolore quos quas nihil commodi voluptatum animi! Itaque velit quidem magni molestias alias ea quos
+            libero incidunt quae rem. Quam iusto assumenda aliquam hic cum culpa molestiae nam rerum amet, eligendi ea.
+            Ducimus non officiis quam inventore at saepe impedit aspernatur.</blockquote>
+    </div>
+    <hr>
+    <div class="que18">
+        <h3>Q18. What is SVG?</h3>
+        <p><b>Ans. </b>SVG stands for Scalable Vector Graphics. SVG defines vector-based graphics in XML format.SVG is
+            mostly used for vector type diagrams like pie charts, 2-Dimensional graphs in an X,Y coordinate system etc
+        </p>
+        <p><b>Ex.</b></p>
+        <svg width="500" height="350">
+            <circle cx="300" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+            <rect width="100" height="100" stroke="green" stroke-width="4" fill="yellow" />
+            <ellipse cx="80" cy="190" rx="80" ry="40" stroke="green" stroke-width="4" fill="yellow" />
+            <line x1="0" y1="0" x2="100" y2="100" stroke="green" stroke-width="4" />
+            <polygon points="400,250 500,200 240, 200" stroke="green" stroke-width="4" fill="yellow" />
+        </svg>
+    </div>
+    <hr>
+    <div class="que19">
+        <h3>Q19. What is difference between HTML and XHTML?</h3>
+        <p><b>Ans. </b></p>
+        <dl>
+            <dt><b>XHTML:-</b></dt>
+            <dd>XHTML stands for Extensible Hypertext Markup Language. It can be considered as a part of the XML markup
+                language this is because of XHTML have features of both XML and HTML. XHTML is extended from XML and
+                HTML. XHTML can be considered as a better version of HTML.</dd>
+            <dt><b>HTML:-</b></dt>
+            <dd>HTML is the Hypertext Markup Language which is the most widely used language over the internet. HTML is
+                used to create web pages and link them from one to another. Please note HTML is not
+                a programming language, it is a markup language. We can use different other technologies as like CSS and
+                javascript to give a new look to the pages developed by HTML.</dd>
+        </dl>
+        <table>
+            <thead>
+                <tr>
+                    <th>HTML</th>
+                    <th>XHTML</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The format is a document file format.</td>
+                    <td>The format is a markup language.</td>
+                </tr>
+                <tr>
+                    <td>All tags and attributes are not necessarily to be in lower or upper case.</td>
+                    <td>In this, every tag and attribute should be in lower case.</td>
+                </tr>
+                <tr>
+                    <td>Doctype is not necessary to write at the top.</td>
+                    <td>Doctype is very necessary to write at the top of the file.</td>
+                </tr>
+                <tr>
+                    <td>Filename extension used are .html, .htm.</td>
+                    <td>Filename extension are .xhtml, .xht, .xml.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <div class="que20">
+        <h3>Q20. What are logical and physical tags in HTML?</h3>
+        <p><b>Ans. </b></p>
+        <p><b> Logical Tags:- </b>Logical Tags are used in HTML to display the text according to the logical styles.
+            Following are the Logical tags commonly used in HTML.</p>
+        <p><b>Ex. </b></p>
+        <code>1. This is code tag.</code><br>
+        2. <abbr title="Hyper text markup language">HTML</abbr><br>
+        <address>3. This is address tag.</address>
+        <cite>4. This is cite tag.</cite><br>
+        <del>5. This is del tag.</del>
+        <p><b>Physical Tags:- </b>Physical Tags are used in HTML to provide actual physical formatting to the text.
+            Following are the Physical tags commonly used in HTML.</p>
+        <p><b>Ex. </b></p>
+        <b>1. This is bold tag.</b><br>
+        <i>2. This is italic tag.</i><br>
+        <small>3. This is small tag.</small><br>
+        <big>4. This is big tag.</big><br>
+        5. This is sup tag. 2<sup>n</sup><br>
+        6. This is sub tag. H<sub>2</sub>O
     </div>
     <hr>
 </body>

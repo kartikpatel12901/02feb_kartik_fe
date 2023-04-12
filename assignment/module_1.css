@@ -14,15 +14,31 @@ h1 {
     text-align: center;
     color: crimson;
 }
-table, th, td {
+.que9 table, th, td {
     border: 2px solid black;
     border-spacing: 10px;
 }
-table th {
+.que9 table th {
     padding: 10px;
 }
 .que10 table, th, td {
     border: 1px solid black;
     border-spacing: 0px;
     padding: 5px;
+}
+.que13 .ifrm {
+    background-color: black;
+}
+.que15 .bg-img {
+    height: 300px;
+    width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsBtC4-m8DnE4ZJkd-xdMZsJ3RMxv1RHLUXg&usqp=CAU");
+    background-size: 100% 100%;
+}
+.que16 a:active {
+    color: yellow;
+}
+.que19 table {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
