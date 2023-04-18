@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* header */
+.header {
+    float: left;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 5;
+    box-shadow: 1px 1px gray;
+    
+}
+/* logo */
+.logo {
+    height: 70px;
+    width: 30%;
+    float: left;
+    margin: auto;
+}
+.logo img {
+    height: 70px;
+    width: auto;
+}
+/* menu */
+.menu {
+    float: left;
+    width: 70%;
+    height: inherit;
+    line-height: 70px;
+}
+.menu ul li {
+    float: left;
+    display: inline;
+    padding: 0px 30px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #00572dba ;
+}
+
+.menu ul li .loc {
+    position: relative;
+}
+
+.loc:hover .store {
+    display: block;
+    z-index: 10;
+}
+
+.store {
+    position: absolute;
+    width: 450px;
+    height: 230px;
+    top: 70px;
+    left: 535px;
+    background-color: #fff;
+    /* display: none; */
+}
+.store .store-img {
+    position: absolute;
+    height: 200px;
+    width: 300px;
+}
+
+.store .store-img img {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.store .store-location ul{
+    margin-left: 10px;
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    display: block;
+    left: 300px;
+    color: #00572dba ;
+    list-style: none;
+}
+
+.store .store-location ul li{
+    margin: 0px;
+    line-height: normal;
+    padding: 14px 17px;
+}
+
+.menu ul li a #login {
+    padding: 7px 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #00572d;
+}
+/* slider */
+.sld{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    top: 70px;
+
+}
+.sld img {
+    width: 100%;
+    filter: brightness(70%);
+    position: absolute;
+    top: 70px;
+    z-index: 0;
+}
+.sld .sld-text{
+    position: absolute;
+    z-index: 4;
+    color: #fff;
+    font-size: 44px;
+    text-shadow: 0px 6px 6px rgb(0 0 0 / 75%);
+    top: 40px;
+    text-align: center;
+    width: 100%;
+}
+.sld .sld-text span {
+    color: yellow;
+}
+.sld .sld-text p {
+    font-size: 30px;
+    margin-top: 30px;
+}
+.sld .sld-text .download-btn {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+}
