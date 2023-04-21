@@ -12,11 +12,6 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
     <script src="../lapinoz-tamp/js/main.js"></script>
-    <!-- <script>
-        $(document).ready(function () {
-            $('.sld-img').cycle('scrollLeft');
-        })
-    </script> -->
 </head>
 
 <body>
@@ -29,7 +24,7 @@
             <ul>
                 <li><a href="#"><span>Home</span></a></li>
                 <li><a href="#"><span>Order Online</span></a></li>
-                <li><a href="#"><span class="loc">Store Loctor</span></a>
+                <li id="dropdown"><a href="#"><span>Store Loctor</span></a>
                     <div class="store">
                         <div class="store-img">
                             <img src="https://imgs.search.brave.com/BbNsWCNE9bWtUkCZ8WdCHbCvwvX7hGO5jmfsFR0V2vA/rs:fit:655:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5O/eGVpdVAzampOUEw5/R1BDanM1SXd3SGFG/WCZwaWQ9QXBp"
@@ -62,8 +57,22 @@
         </div>
         <div class="sld-text">
             <h2>More Than 550+ Outlets<br><span>LIVE Across India</span></h2>
-            <p>Order Pizza Online In Your Area</p>
-            <p>Download The App For Seamless Experience</p><br>
+            <p>Order Pizza Online In Your Area</p><br>
+            <div class="outlet-div">
+                <select class="browser-default custom-select">
+                    <option>Select Your City</option>
+                    <option value="Agra">Agra</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Ajmer">Ajmer</option>
+                    <option value="Ambala Cantt">Ambala Cantt</option>
+                    <option value="Ambala City">Ambala City</option>
+                    <option value="Amreli">Amreli</option>
+                </select>
+                <select class="browser-default custom-select" id="outletSelector" onchange="openOrderPageNew(this)">
+                    <option>Select Your Favourite Outlet</option>
+                </select>
+            </div>
+            <p>Download The App For Seamless Experience</p>
             <a href="https://uen.io/lapinoz" target="_blank" class="download-btn">Download Now</a>
         </div>
     </div>
