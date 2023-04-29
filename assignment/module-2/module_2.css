@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+}
+h1 {
+    font-size: 36px;
+    text-align: center;
+    text-decoration: underline;
+    color: #143eed;
+}
+.que3 table, th, td{
+    border: 1px solid black;
+}
+.que4 .set{
+        height: 30px;
+        width: auto;
+        border: 2px solid black;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 30px;
+}
+.que4  .text_style {
+    text-align: center;
+    text-indent: 2px;
+    text-shadow: 2px -7px 2px gray;
+
+}
+
+.que4 .font_style {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.que4 .background_style {
+    background-color: #7c91e7;
+}
+
+.que5 .opacity_1{
+    background: rgb(127, 255, 212);
+    opacity:0.4;
+}
+
+.que5 .opacity_2{
+    background: rgba(127, 255, 212, 0.4);
+}
+
+.que6 .background-color-1 {
+    background-color: aqua;
+}
+.que6 .background-color-2 {
+    background-color: #33ff00;
+}
+.que6 .background-color-3{
+    background-color: rgb(76, 151, 201);
+}
+.que6 .background-color-4 {
+    background-color: rgba(201, 76, 76, 0.3);
+}
+.que6 .background-color-5 {
+    background-color: hsl(89, 43%, 51%);
+}
+.que6 .background-color-6 {
+    background-color: hsla(89, 43%, 51%, 0.3);
+}
+
+.no-repeat{
+    color: aliceblue;
+    height: 300px;
+    width: 500px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpOCIPOxKGbMo_LhjiZ3kQquwhDkjuNWNPUg);
+    background-repeat: no-repeat;
+}
+
+.que7 .repeat{
+    height: 500px;
+    width: 800px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpOCIPOxKGbMo_LhjiZ3kQquwhDkjuNWNPUg);
+    background-repeat: repeat;
+    color: aliceblue;
+}
+.que7 .no-repeat{
+    margin-top: 50px;
+}
+
+.que8 .no-repeat{
+    width: auto;
+    background-position: center;
+}
+
+.que9 .scroll{
+    width: auto;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpOCIPOxKGbMo_LhjiZ3kQquwhDkjuNWNPUg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.que11 p {
+    margin: auto;
+    width: 50%;
+}
